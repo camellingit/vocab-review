@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<meta name="theme-color" content="#58cc02">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="单词闯关">
+<title>单词闯关 · 灯具英语</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦉</text></svg>">
+<link rel="stylesheet" href="app.css?v=3">
+</head>
+<body>
+<div id="app">
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <header class="topbar">
+      <div class="stat" title="连续天数"><span class="ico">🔥</span><b id="streak">0</b></div>
+      <div class="stat" title="经验值"><span class="ico">⚡</span><b id="xp">0</b></div>
+      <div class="stat" title="已掌握"><span class="ico">👑</span><b id="mastered">0</b></div>
+      <button class="iconbtn" id="soundToggle" title="音效">🔊</button>
+    </header>
+    <div class="scroll">
+      <div class="hero">
+        <div class="owl">🦉</div>
+        <div class="bubble" id="greet">今天也来练几个词吧！</div>
+      </div>
+      <div class="card goal">
+        <div class="goal-row"><span>今日目标</span><span id="goalText">0 / 30 XP</span></div>
+        <div class="bar"><div class="fill" id="goalFill"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">选择类别 <small>（可多选）</small></div>
+        <div class="chips" id="catChips"></div>
+      </div>
+      <button class="btn big primary" id="startBtn">开始学习</button>
+      <button class="btn big secondary" id="wrongBtn">错题练习 <span id="wrongCount" class="pill">0</span></button>
+      <div class="card sync">
+        <div>词库：<b id="wordCount">-</b> 个词</div>
+        <div class="muted">上次同步：<span id="syncTime">-</span></div>
+        <button class="btn small outline" id="refreshBtn">🔄 刷新词库</button>
+      </div>
+      <div class="card">
+        <div class="card-title">进度备份 <small>（进度只保存在本浏览器）</small></div>
+        <div class="row2"><button class="btn small outline" id="exportBtn">📤 导出进度</button><button class="btn small outline" id="importBtn">📥 导入进度</button></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LESSON -->
+  <section id="lesson" class="screen">
+    <header class="lessonbar">
+      <button class="iconbtn close" id="quitBtn" aria-label="退出">✕</button>
+      <div class="bar grow"><div class="fill" id="lessonFill"></div></div>
+      <div class="hearts" id="combo"></div>
+    </header>
+    <div class="qwrap">
+      <div class="qtype" id="qType"></div>
+      <div class="prompt" id="qPrompt"></div>
+      <div class="options" id="qOptions"></div>
+    </div>
+    <footer class="checkbar" id="checkBar">
+      <div class="fb">
+        <div class="fb-title" id="fbTitle"></div>
+        <div class="fb-body" id="fbBody"></div>
+      </div>
+      <button class="btn big primary" id="checkBtn" disabled>检查</button>
+    </footer>
+  </section>
+
+  <!-- COMPLETE -->
+  <section id="done" class="screen">
+    <div class="done-wrap">
+      <div class="trophy">🏆</div>
+      <h1 id="doneTitle">完成一课！</h1>
+      <div class="done-stats">
+        <div class="ds xp"><div class="ds-h">总经验</div><div class="ds-v" id="doneXp">0</div></div>
+        <div class="ds acc"><div class="ds-h">正确率</div><div class="ds-v" id="doneAcc">0%</div></div>
+        <div class="ds st"><div class="ds-h">连续</div><div class="ds-v" id="doneStreak">0</div></div>
+      </div>
+      <div class="review" id="doneReview"></div>
+      <button class="btn big primary" id="doneBtn">继续</button>
+      <button class="btn big secondary" id="againBtn">再来一课</button>
+    </div>
+  </section>
+
+  <!-- WORDS -->
+  <section id="words" class="screen">
+    <header class="topbar list">
+      <input id="search" type="search" placeholder="搜索英文 / 中文…" autocomplete="off">
+    </header>
+    <div class="chips filter" id="listChips"></div>
+    <div class="scroll" id="wordList"></div>
+  </section>
+
+  <nav class="tabbar" id="tabbar">
+    <button data-tab="home" class="on"><span>🏠</span>学习</button>
+    <button data-tab="words"><span>📖</span>词表</button>
+    <button data-tab="wrong"><span>📕</span>错题本</button>
+  </nav>
+  <div id="modal" class="modal"><div class="sheet" id="modalBody"></div></div>
+  <div id="toast"></div>
+</div>
+<script src="app.js?v=3"></script>
+</body>
+</html>

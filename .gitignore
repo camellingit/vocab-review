@@ -1,0 +1,13 @@
+# local-only / box-specific files
+raw/
+logs/
+bin/
+repo/
+.path_token
+current_url.txt
+.tunnel_enabled
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
