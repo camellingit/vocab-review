@@ -23,26 +23,77 @@ const isWrong = w => { const p = prog[w.id]; return p && p.bad > 0 && p.box < 3;
 function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove('show'), 2200); }
 function fmtTime(iso){ if (!iso) return '-'; const d = new Date(iso); if (isNaN(d)) return iso; return d.toLocaleString('zh-CN', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' }); }
 
-/* ---------- speech ---------- */
+/* ---------- speech: pre-generated en-GB-RyanNeural MP3, fallback speechSynthesis ---------- */
+const AUDIO_DIR = 'audio/';
+let audioIndex = null;          // text -> filename
+let audioEl = null;
+let speakToken = 0;
 let voice = null;
 function pickVoice(){
   if (!('speechSynthesis' in window)) return;
-  const vs = speechSynthesis.getVoices().filter(v => /^en[-_](US|GB|AU)/i.test(v.lang));
-  const pref = [/Samantha/i, /Google US English/i, /Daniel/i, /Karen/i, /Microsoft (Aria|Jenny|Guy)/i, /Google UK English Female/i];
+  const vs = speechSynthesis.getVoices().filter(v => /^en[-_]/i.test(v.lang));
+  const pref = [/Google UK English Male/i, /Daniel/i, /Ryan/i, /Google UK English/i, /en-GB/i, /Samantha/i, /Google US English/i, /Microsoft (Aria|Jenny|Guy)/i];
   voice = null;
-  for (const re of pref) { voice = vs.find(v => re.test(v.name)); if (voice) break; }
-  if (!voice) voice = vs.find(v => /en[-_]US/i.test(v.lang)) || vs.find(v => /en[-_]GB/i.test(v.lang)) || vs[0] || null;
+  for (const re of pref) { voice = vs.find(v => re.test(v.name) || re.test(v.lang)); if (voice) break; }
+  if (!voice) voice = vs.find(v => /en[-_]GB/i.test(v.lang)) || vs.find(v => /en[-_]AU/i.test(v.lang)) || vs.find(v => /en[-_]US/i.test(v.lang)) || vs[0] || null;
 }
 if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-function speak(text, rate = 0.85){
+function ttsNorm(text){ return String(text).replace(/\s*\/\s*/g, ', ').replace(/[()（）]/g, ' ').replace(/\s+/g, ' ').trim(); }
+function getAudioEl(){ if (!audioEl) { audioEl = new Audio(); audioEl.preload = 'auto'; } return audioEl; }
+function stopSpeak(){
+  try { if (audioEl) { audioEl.onerror = null; audioEl.pause(); audioEl.removeAttribute('src'); audioEl.load(); } } catch (e) {}
+  try { if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) {}
+}
+function fallbackSpeak(text, rate = 0.85){
   if (!('speechSynthesis' in window)) { toast('此浏览器不支持朗读'); return; }
   try {
     speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(String(text).replace(/\s*\/\s*/g, ', ').replace(/[()（）]/g, ' '));
-    u.lang = voice ? voice.lang : 'en-US'; if (voice) u.voice = voice; u.rate = rate; u.pitch = 1;
+    const u = new SpeechSynthesisUtterance(ttsNorm(text) || String(text));
+    u.lang = (voice && voice.lang) || 'en-GB'; if (voice) u.voice = voice; u.rate = rate; u.pitch = 1;
     speechSynthesis.speak(u);
   } catch (e) {}
 }
+function speak(text, rate){
+  const raw = String(text ?? '');
+  if (!raw.trim()) return;
+  const token = ++speakToken;
+  stopSpeak();
+  const file = audioIndex && (audioIndex[raw] || audioIndex[raw.trim()] || audioIndex[ttsNorm(raw)]);
+  if (file) {
+    const el = getAudioEl();
+    el.playbackRate = rate == null ? 1 : rate;
+    const fail = err => {
+      if (token !== speakToken) return;
+      if (err && err.name === 'AbortError') return;
+      el.onerror = null;
+      fallbackSpeak(raw, rate == null ? 0.85 : rate);
+    };
+    el.onerror = () => fail();
+    el.src = AUDIO_DIR + file;
+    const p = el.play();
+    if (p && p.catch) p.catch(fail);
+    return;
+  }
+  fallbackSpeak(raw, rate == null ? 0.85 : rate);
+}
+async function loadAudioIndex(){
+  try {
+    const r = await fetch(AUDIO_DIR + 'index.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    audioIndex = d.files || d;
+  } catch (e) { if (!audioIndex) audioIndex = {}; }
+}
+function unlockMedia(){
+  try {
+    const el = getAudioEl();
+    el.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAABAAgAZGF0YQAAAAA=';
+    const p = el.play(); if (p && p.catch) p.catch(() => {});
+    el.pause();
+  } catch (e) {}
+  try { if ('speechSynthesis' in window) { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } } catch (e) {}
+}
+
 
 /* ---------- sound fx (Web Audio, no files) ---------- */
 let actx = null;
@@ -339,8 +390,11 @@ $('#tabbar').addEventListener('click', e => {
   document.querySelectorAll('.tabbar button').forEach(x => x.classList.toggle('on', x === b));
   show(t); if (t === 'words') renderList(); else renderHome();
 });
-// unlock speech on iOS with first gesture
-document.addEventListener('touchend', function unlock(){ try { if ('speechSynthesis' in window) { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } } catch (e) {} document.removeEventListener('touchend', unlock); }, { once: true });
+// unlock audio + speech on iOS with the first gesture
+const unlockOnce = () => { unlockMedia(); document.removeEventListener('touchend', unlockOnce); document.removeEventListener('click', unlockOnce); };
+document.addEventListener('touchend', unlockOnce, { once: true });
+document.addEventListener('click', unlockOnce, { once: true });
 
-renderHome(); renderList(); fetchWords(false).then(() => { if (location.hash === '#demo-lesson') startLesson('normal'); });
+renderHome(); renderList();
+Promise.all([fetchWords(false), loadAudioIndex()]).then(() => { if (location.hash === '#demo-lesson') startLesson('normal'); });
 })();
