@@ -1,7 +1,7 @@
 {
- "syncedAt": "2026-11-18T13:15:39Z",
+ "syncedAt": "2026-11-19T21:52:39Z",
  "source": "Notion 英语复习词库",
- "count": 256,
+ "count": 282,
  "words": [
   {
    "id": "0f8a82371f",
@@ -656,9 +656,17 @@
      "en": "We have different types of aluminium profiles for this linear range.",
      "zh": "这个线型系列有多种铝型材可选。",
      "hit": "profiles"
+    },
+    {
+     "en": "We can install the strip lighting into the profile so it's ready for profile lighting on site.",
+     "zh": "我们可以先把灯带装进型材，到现场就能做线槽/型材照明。"
+    },
+    {
+     "en": "This kitchen uses profile lighting under the overhead cupboards.",
+     "zh": "这个厨房在吊柜底部用了型材灯槽照明。"
     }
    ],
-   "usage": "灯具里常指铝型材、灯槽型材；也可泛指产品系列或截面形状。",
+   "usage": "灯具里常指铝型材、灯槽型材；也可泛指产品系列或截面形状。\n常见组合 profile lighting（线型灯 / 型材灯照明）——用铝型材（profile）做的灯槽或线条照明。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:05:16Z"
@@ -678,31 +686,19 @@
      "en": "A matt reflector will give a softer light and less glare.",
      "zh": "哑光反射器的光线更柔和，眩光也更少。",
      "hit": "reflector"
-    }
-   ],
-   "usage": "反射器，用来控制光线方向和光束形状。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:05:16Z"
-  },
-  {
-   "id": "528fd06538",
-   "en": "Reflector Holder",
-   "zh": "反光杯支架 / 反射器固定座",
-   "cat": "安装与结构",
-   "examples": [
+    },
     {
      "en": "Please make sure the reflector holder is clipped in before you fit the trim.",
      "zh": "装面框之前，请确认反射器支架已经卡到位。",
-     "hit": "reflector holder"
+     "hit": "reflector"
     },
     {
      "en": "The replacement kit includes the reflector, the reflector holder and the fascia.",
      "zh": "更换套件里包括反射器、反射器支架和面板。",
-     "hit": "reflector holder"
+     "hit": "reflector"
     }
    ],
-   "usage": "固定反射器的支架或固定件。",
+   "usage": "反射器，用来控制光线方向和光束形状。\n常见组合 Reflector Holder（反光杯支架 / 反射器固定座）——固定反射器的支架或固定件。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:05:16Z"
@@ -747,28 +743,6 @@
     }
    ],
    "usage": "吊杆；有时也指灯具里的连接杆。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:05:16Z"
-  },
-  {
-   "id": "3674e537d0",
-   "en": "Sleeve",
-   "zh": "套筒 / 灯体套管",
-   "cat": "安装与结构",
-   "examples": [
-    {
-     "en": "Use a heat-shrink sleeve on the cable joint before you close the enclosure.",
-     "zh": "合上灯壳前，请在电缆接头上套热缩套管。",
-     "hit": "sleeve"
-    },
-    {
-     "en": "The rod is supplied with a decorative sleeve in the same finish as the fixture.",
-     "zh": "吊杆配有和灯具同色的装饰套管。",
-     "hit": "sleeve"
-    }
-   ],
-   "usage": "套管、护套，可能是电线保护套，也可能是装饰套管。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:05:16Z"
@@ -1035,6 +1009,28 @@
    "created": "2026-11-05 03:05:43Z"
   },
   {
+   "id": "9b9fc58dfe",
+   "en": "Current",
+   "zh": "电流",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "Please check the electric current of this driver; it should match the LED module.",
+     "zh": "请核对这款驱动的电流，要和 LED 模组匹配。",
+     "hit": "current"
+    },
+    {
+     "en": "The data sheet shows a constant current of 700 mA.",
+     "zh": "规格书上标的是 700 毫安恒流。",
+     "hit": "current"
+    }
+   ],
+   "usage": "电流，常和电压 voltage、功率 wattage 一起看。\n常见组合 Electric Current（电流）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-05 03:05:43Z"
+  },
+  {
    "id": "fc4bca464c",
    "en": "Deposition",
    "zh": "沉积 / 镀膜",
@@ -1140,27 +1136,6 @@
     }
    ],
    "usage": "散热、把热量散掉。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:05:43Z"
-  },
-  {
-   "id": "9b9fc58dfe",
-   "en": "Electric Current",
-   "zh": "电流",
-   "cat": "光学电气",
-   "examples": [
-    {
-     "en": "Please check the electric current of this driver; it should match the LED module.",
-     "zh": "请核对这款驱动的电流，要和 LED 模组匹配。",
-     "hit": "electric current"
-    },
-    {
-     "en": "The data sheet shows a constant current of 700 mA.",
-     "zh": "规格书上标的是 700 毫安恒流。"
-    }
-   ],
-   "usage": "电流，常和电压 voltage、功率 wattage 一起看。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:05:43Z"
@@ -1805,88 +1780,22 @@
   },
   {
    "id": "2a850e0df0",
-   "en": "conduct research",
-   "zh": "做调研；开展调研",
+   "en": "conduct",
+   "zh": "开展；进行（调研、测试等）",
    "cat": "商务用语",
    "examples": [
     {
      "en": "We need to conduct research on competitor websites before we finalise our layout.",
      "zh": "在确定版面之前，我们要先做竞品网站调研。",
-     "hit": "conduct research"
+     "hit": "conduct"
     },
     {
      "en": "The team will conduct research on lead times from a few factories in China.",
      "zh": "团队会调研几家中国工厂的交期。",
-     "hit": "conduct research"
+     "hit": "conduct"
     }
    ],
-   "usage": "做调查、收集信息，再做判断。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:39:21Z"
-  },
-  {
-   "id": "fa0c432e2b",
-   "en": "field research",
-   "zh": "实地调研",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "We'll do some field research in the Perth showrooms this week.",
-     "zh": "我们这周会在珀斯的展厅做一些实地调研。",
-     "hit": "field research"
-    },
-    {
-     "en": "Field research with installers will tell us which cut-out size is most practical.",
-     "zh": "跟安装师傅做实地调研，才能知道哪种开孔尺寸最好用。",
-     "hit": "Field research"
-    }
-   ],
-   "usage": "到现场或市场一线去看、去问，不是只在桌上查资料。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:39:21Z"
-  },
-  {
-   "id": "b0e51b9a34",
-   "en": "field survey",
-   "zh": "实地调查",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "The lighting designer will do a field survey before issuing the layout.",
-     "zh": "照明设计师会先做现场勘查，再出布置图。",
-     "hit": "field survey"
-    },
-    {
-     "en": "After the field survey we confirmed the ceiling height is only 2.4 metres.",
-     "zh": "现场勘查后确认层高只有 2.4 米。",
-     "hit": "field survey"
-    }
-   ],
-   "usage": "到项目现场测量、查看实际情况。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:39:21Z"
-  },
-  {
-   "id": "d36d34d1c6",
-   "en": "market research",
-   "zh": "市场调研",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "Our market research shows that custom finishes are becoming more popular.",
-     "zh": "市场调研显示，定制表面越来越受欢迎。",
-     "hit": "market research"
-    },
-    {
-     "en": "We need more market research on what wholesalers want from the new website.",
-     "zh": "关于批发商对新网站的需求，我们还要再做一些市场调研。",
-     "hit": "market research"
-    }
-   ],
-   "usage": "针对市场、客户或竞争对手做的调查研究。",
+   "usage": "做调查、收集信息，再做判断。\n常见组合 conduct research（做调研；开展调研）。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:39:21Z"
@@ -1906,9 +1815,29 @@
      "en": "Please do some research on similar pendants in the Australian market.",
      "zh": "请调研一下澳洲市场上类似的吊灯。",
      "hit": "research"
+    },
+    {
+     "en": "We'll do some field research in the Perth showrooms this week.",
+     "zh": "我们这周会在珀斯的展厅做一些实地调研。",
+     "hit": "research"
+    },
+    {
+     "en": "Field research with installers will tell us which cut-out size is most practical.",
+     "zh": "跟安装师傅做实地调研，才能知道哪种开孔尺寸最好用。",
+     "hit": "research"
+    },
+    {
+     "en": "Our market research shows that custom finishes are becoming more popular.",
+     "zh": "市场调研显示，定制表面越来越受欢迎。",
+     "hit": "research"
+    },
+    {
+     "en": "We need more market research on what wholesalers want from the new website.",
+     "zh": "关于批发商对新网站的需求，我们还要再做一些市场调研。",
+     "hit": "research"
     }
    ],
-   "usage": "泛指查找资料、了解情况；更具体时可说 market research 或 field research。",
+   "usage": "泛指查找资料、了解情况；更具体时可说 market research 或 field research。\n常见组合 field research（实地调研）——到现场或市场一线去看、去问，不是只在桌上查资料。\n常见组合 market research（市场调研）——针对市场、客户或竞争对手做的调查研究。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:39:21Z"
@@ -1958,6 +1887,58 @@
    "created": "2026-11-05 03:39:21Z"
   },
   {
+   "id": "b0e51b9a34",
+   "en": "survey",
+   "zh": "调查；勘测（field survey 实地调查，site survey 现场勘测）",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "The lighting designer will do a field survey before issuing the layout.",
+     "zh": "照明设计师会先做现场勘查，再出布置图。",
+     "hit": "survey"
+    },
+    {
+     "en": "After the field survey we confirmed the ceiling height is only 2.4 metres.",
+     "zh": "现场勘查后确认层高只有 2.4 米。",
+     "hit": "survey"
+    }
+   ],
+   "usage": "到项目现场测量、查看实际情况。\n常见组合 field survey（实地调查）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-05 03:39:21Z"
+  },
+  {
+   "id": "1a853177dc",
+   "en": "fabricator",
+   "zh": "加工商；制作厂（如 stone fabricator 石材加工商）",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "We'll work with a local stone fabricator to cut the travertine bases.",
+     "zh": "我们会找当地石材加工商来切割洞石灯座。",
+     "hit": "fabricator"
+    },
+    {
+     "en": "The stone fabricator needs the exact dimensions before they start cutting.",
+     "zh": "石材加工商要先拿到准确尺寸才会开始切割。",
+     "hit": "fabricator"
+    },
+    {
+     "en": "The marble bases will be finished in our stone fabrication workshop.",
+     "zh": "大理石灯座会在石材加工车间里做完。"
+    },
+    {
+     "en": "Please send the drawings to the stone fabrication workshop for a cutting quote.",
+     "zh": "请把图纸发给石材加工车间，让他们出切割报价。"
+    }
+   ],
+   "usage": "石材加工商或石材加工师傅。\n常见组合 stone fabricator（石材加工商；石头加工厂）。\n常见组合 stone fabrication workshop（石材加工车间；石头加工厂）——做石材切割、打磨、成型的车间。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-05 03:45:37Z"
+  },
+  {
    "id": "ecae50ffa8",
    "en": "factory",
    "zh": "工厂；加工厂",
@@ -1981,110 +1962,76 @@
   },
   {
    "id": "f88db5d1e9",
-   "en": "processing plant",
-   "zh": "加工厂",
+   "en": "plant",
+   "zh": "工厂；车间（不是「植物」）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "The stone processing plant can cut the marble bases to our drawings.",
      "zh": "石材加工厂可以按我们的图纸切割大理石灯座。",
-     "hit": "processing plant"
+     "hit": "plant"
     },
     {
      "en": "This processing plant only does cutting and polishing, not assembly.",
      "zh": "这家加工厂只做切割和抛光，不做组装。",
-     "hit": "processing plant"
+     "hit": "plant"
     }
    ],
-   "usage": "做原材料加工的工厂，不一定做整灯组装。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:45:37Z"
-  },
-  {
-   "id": "ecc0f7d79e",
-   "en": "stone fabrication workshop",
-   "zh": "石材加工车间；石头加工厂",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "The marble bases will be finished in our stone fabrication workshop.",
-     "zh": "大理石灯座会在石材加工车间里做完。",
-     "hit": "stone fabrication workshop"
-    },
-    {
-     "en": "Please send the drawings to the stone fabrication workshop for a cutting quote.",
-     "zh": "请把图纸发给石材加工车间，让他们出切割报价。",
-     "hit": "stone fabrication workshop"
-    }
-   ],
-   "usage": "做石材切割、打磨、成型的车间。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 03:45:37Z"
-  },
-  {
-   "id": "1a853177dc",
-   "en": "stone fabricator",
-   "zh": "石材加工商；石头加工厂",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "We'll work with a local stone fabricator to cut the travertine bases.",
-     "zh": "我们会找当地石材加工商来切割洞石灯座。",
-     "hit": "stone fabricator"
-    },
-    {
-     "en": "The stone fabricator needs the exact dimensions before they start cutting.",
-     "zh": "石材加工商要先拿到准确尺寸才会开始切割。",
-     "hit": "stone fabricator"
-    }
-   ],
-   "usage": "石材加工商或石材加工师傅。",
+   "usage": "做原材料加工的工厂，不一定做整灯组装。\n常见组合 processing plant（加工厂）。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:45:37Z"
   },
   {
    "id": "2ad6f8a72a",
-   "en": "stone processing factory",
-   "zh": "石头加工厂",
+   "en": "processing",
+   "zh": "加工（如 stone / glass processing factory 石材/玻璃加工厂）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "This stone processing factory can do both marble and onyx for lighting pieces.",
      "zh": "这家石材加工厂可以做灯具用的大理石和玉石件。",
-     "hit": "stone processing factory"
+     "hit": "processing"
     },
     {
      "en": "Please visit the stone processing factory to check the colour of the current batch.",
      "zh": "请去石材加工厂看一下这一批的颜色。",
-     "hit": "stone processing factory"
+     "hit": "processing"
+    },
+    {
+     "en": "The shades will be made at a glass processing factory, then assembled with the metal frame.",
+     "zh": "灯罩会在玻璃加工厂做，再和金属框架组装。",
+     "hit": "processing"
+    },
+    {
+     "en": "This glass processing factory can do cutting, polishing and sandblasting.",
+     "zh": "这家玻璃加工厂可以做切割、抛光和喷砂。",
+     "hit": "processing"
     }
    ],
-   "usage": "规模更大的石材加工厂。",
+   "usage": "规模更大的石材加工厂。\n常见组合 stone processing factory（石头加工厂）。\n常见组合 Glass Processing factory（玻璃加工厂）——做玻璃切割、打磨、成型等加工的工厂。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:45:37Z"
   },
   {
    "id": "c4e86341ac",
-   "en": "stone workshop",
-   "zh": "石材作坊；石头加工厂",
+   "en": "workshop",
+   "zh": "车间；作坊",
    "cat": "行业术语",
    "examples": [
     {
      "en": "The samples will be prepared in the stone workshop this week.",
      "zh": "样品这周会在石材车间里做出来。",
-     "hit": "stone workshop"
+     "hit": "workshop"
     },
     {
      "en": "Our stone workshop can restore a chipped marble base if you send it back.",
      "zh": "如果你把磕坏的大理石灯座寄回来，我们石材车间可以修复。",
-     "hit": "stone workshop"
+     "hit": "workshop"
     }
    ],
-   "usage": "石材车间，范围比 processing factory 更口语、也可能更小。",
+   "usage": "石材车间，范围比 processing factory 更口语、也可能更小。\n常见组合 stone workshop（石材作坊；石头加工厂）。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 03:45:37Z"
@@ -2258,9 +2205,19 @@
      "en": "3D printing is useful for prototypes before we tool up for regular production.",
      "zh": "在开模具做常规生产之前，3D 打印很适合打样。",
      "hit": "3D printing"
+    },
+    {
+     "en": "This shade is made with ceramic 3D printing, not a traditional mould.",
+     "zh": "这个灯罩是陶瓷 3D 打印的，不是传统开模。",
+     "hit": "3D printing"
+    },
+    {
+     "en": "Ceramic 3D printing allows a thinner wall, but we have to watch the lead time.",
+     "zh": "陶瓷 3D 打印可以把壁厚做薄，但交期要留意。",
+     "hit": "3D printing"
     }
    ],
-   "usage": "增材制造；灯具里常见于陶瓷等造型，或用于打样。",
+   "usage": "增材制造；灯具里常见于陶瓷等造型，或用于打样。\n常见组合 Ceramic 3D Printing（陶瓷 3D 打印）——用 3D 打印做陶瓷灯罩或装饰件的工艺。",
    "notes": "",
    "material": "",
    "created": "2026-11-05 04:04:39Z"
@@ -2332,28 +2289,6 @@
    "created": "2026-11-05 04:04:39Z"
   },
   {
-   "id": "f8f9f7e1e3",
-   "en": "Ceramic 3D Printing",
-   "zh": "陶瓷 3D 打印",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "This shade is made with ceramic 3D printing, not a traditional mould.",
-     "zh": "这个灯罩是陶瓷 3D 打印的，不是传统开模。",
-     "hit": "ceramic 3D printing"
-    },
-    {
-     "en": "Ceramic 3D printing allows a thinner wall, but we have to watch the lead time.",
-     "zh": "陶瓷 3D 打印可以把壁厚做薄，但交期要留意。",
-     "hit": "Ceramic 3D printing"
-    }
-   ],
-   "usage": "用 3D 打印做陶瓷灯罩或装饰件的工艺。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-05 04:04:39Z"
-  },
-  {
    "id": "f91d87b12e",
    "en": "Faux Alabaster",
    "zh": "仿云石",
@@ -2373,28 +2308,6 @@
    "usage": "faux 表示仿制，不是真云石。",
    "notes": "",
    "material": "Faux Alabaster",
-   "created": "2026-11-05 04:04:39Z"
-  },
-  {
-   "id": "075e6441be",
-   "en": "Glass Processing factory",
-   "zh": "玻璃加工厂",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "The shades will be made at a glass processing factory, then assembled with the metal frame.",
-     "zh": "灯罩会在玻璃加工厂做，再和金属框架组装。",
-     "hit": "glass processing factory"
-    },
-    {
-     "en": "This glass processing factory can do cutting, polishing and sandblasting.",
-     "zh": "这家玻璃加工厂可以做切割、抛光和喷砂。",
-     "hit": "glass processing factory"
-    }
-   ],
-   "usage": "做玻璃切割、打磨、成型等加工的工厂。",
-   "notes": "",
-   "material": "",
    "created": "2026-11-05 04:04:39Z"
   },
   {
@@ -3090,31 +3003,19 @@
      "en": "The underside of the fitting should be kept clean; dust will show in the light.",
      "zh": "灯具底面要保持干净，不然灰尘会在灯光里显现出来。",
      "hit": "underside"
-    }
-   ],
-   "usage": "底面、下表面。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-15 09:23:18Z"
-  },
-  {
-   "id": "b135ab3274",
-   "en": "Underside of the overhead cupboards",
-   "zh": "吊柜底部（吊柜的下底面）",
-   "cat": "安装与结构",
-   "examples": [
+    },
     {
      "en": "We'll put a slim LED profile on the underside of the overhead cupboards.",
      "zh": "我们会在吊柜底面装一条超薄铝槽灯。",
-     "hit": "underside of the overhead cupboards"
+     "hit": "underside"
     },
     {
      "en": "The underside of the overhead cupboards is the usual position for under-cabinet lighting.",
      "zh": "柜下灯通常就装在吊柜底面。",
-     "hit": "underside of the overhead cupboards"
+     "hit": "underside"
     }
    ],
-   "usage": "吊柜朝下的那一面，是厨房柜下照明的常见安装位置。澳洲也有人说 under-cupboard。",
+   "usage": "底面、下表面。\n常见组合 Underside of the overhead cupboards（吊柜底部（吊柜的下底面））——吊柜朝下的那一面，是厨房柜下照明的常见安装位置。澳洲也有人说 under-cupboard。",
    "notes": "",
    "material": "",
    "created": "2026-11-15 09:23:18Z"
@@ -3165,22 +3066,22 @@
   },
   {
    "id": "52227d173b",
-   "en": "consultation page",
-   "zh": "咨询页；预约洽谈页",
+   "en": "consultation",
+   "zh": "咨询；洽谈（预约咨询）",
    "cat": "商务用语",
    "examples": [
     {
      "en": "The consultation page should let customers book a lighting design discussion.",
      "zh": "咨询页应该让客户预约照明设计沟通。",
-     "hit": "consultation page"
+     "hit": "consultation"
     },
     {
      "en": "Please put the contact form on the consultation page, not in a pop-up.",
      "zh": "请把联系表单放在咨询页上，不要放在弹窗里。",
-     "hit": "consultation page"
+     "hit": "consultation"
     }
    ],
-   "usage": "网站上用来咨询、预约或对接销售的页面。",
+   "usage": "网站上用来咨询、预约或对接销售的页面。\n常见组合 consultation page（咨询页；预约洽谈页）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:25Z"
@@ -3296,22 +3197,22 @@
   },
   {
    "id": "13e8b92e08",
-   "en": "series page",
-   "zh": "产品系列页",
+   "en": "series",
+   "zh": "（产品）系列",
    "cat": "行业术语",
    "examples": [
     {
      "en": "From the series page you can see all the models, then open the specification and the configurator.",
      "zh": "在系列页可以看到所有型号，再打开规格和配置器。",
-     "hit": "series page"
+     "hit": "series"
     },
     {
      "en": "The series page should not look cluttered — keep one hero image and a short introduction.",
      "zh": "系列页不要太乱，留一张主图和一段简介就好。",
-     "hit": "series page"
+     "hit": "series"
     }
    ],
-   "usage": "展示某一个产品系列的网页。",
+   "usage": "展示某一个产品系列的网页。\n常见组合 series page（产品系列页）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:25Z"
@@ -3404,8 +3305,8 @@
   },
   {
    "id": "450a586f38",
-   "en": "brochure / brochure-style",
-   "zh": "宣传册；宣传册式（页面设计）",
+   "en": "brochure",
+   "zh": "宣传册",
    "cat": "商务用语",
    "examples": [
     {
@@ -3416,10 +3317,10 @@
     {
      "en": "Can we keep the series page more brochure-style, with larger images and less text?",
      "zh": "系列页能不能更像宣传册，图片大一点、文字少一点？",
-     "hit": "brochure-style"
+     "hit": "brochure"
     }
    ],
-   "usage": "brochure 是产品宣传册；brochure-style 指网页或版面像画册一样精致。",
+   "usage": "brochure 是产品宣传册；brochure-style 指网页或版面像画册一样精致。\n常见组合 brochure / brochure-style（宣传册；宣传册式（页面设计））。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:46Z"
@@ -3470,8 +3371,8 @@
   },
   {
    "id": "a43a616f83",
-   "en": "driver / driver selection",
-   "zh": "驱动电源；驱动选型",
+   "en": "driver",
+   "zh": "驱动电源（driver selection 驱动选型）",
    "cat": "光学电气",
    "examples": [
     {
@@ -3482,10 +3383,10 @@
     {
      "en": "Driver selection depends on the wattage, dimming type and whether it is integral or remote.",
      "zh": "驱动怎么选，要看功率、调光方式，以及是内置还是外置。",
-     "hit": "Driver selection"
+     "hit": "Driver"
     }
    ],
-   "usage": "驱动电源；选型时要匹配灯具功率和调光协议（如 DALI、trailing edge）。",
+   "usage": "驱动电源；选型时要匹配灯具功率和调光协议（如 DALI、trailing edge）。\n常见组合 driver / driver selection（驱动电源；驱动选型）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:46Z"
@@ -3600,28 +3501,6 @@
    "created": "2026-11-16 05:49:46Z"
   },
   {
-   "id": "8fb27da569",
-   "en": "profile lighting",
-   "zh": "线型灯 / 型材灯照明",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "We can install the strip lighting into the profile so it's ready for profile lighting on site.",
-     "zh": "我们可以先把灯带装进型材，到现场就能做线槽/型材照明。",
-     "hit": "profile lighting"
-    },
-    {
-     "en": "This kitchen uses profile lighting under the overhead cupboards.",
-     "zh": "这个厨房在吊柜底部用了型材灯槽照明。",
-     "hit": "profile lighting"
-    }
-   ],
-   "usage": "用铝型材（profile）做的灯槽或线条照明。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 05:49:46Z"
-  },
-  {
    "id": "72bee480b6",
    "en": "reseller",
    "zh": "经销商；转售商",
@@ -3689,22 +3568,22 @@
   },
   {
    "id": "7d8ce01f0d",
-   "en": "strip lighting",
-   "zh": "灯带照明",
+   "en": "strip",
+   "zh": "灯带（LED strip）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "We can install the strip lighting into the profile in-house, so it's ready to fit on site.",
      "zh": "我们可以在公司里先把灯带装进型材，到现场就能直接安装。",
-     "hit": "strip lighting"
+     "hit": "strip"
     },
     {
      "en": "This linear range includes different types of strip lighting and aluminium profiles.",
      "zh": "这个线型系列包含不同种类的灯带和铝型材。",
-     "hit": "strip lighting"
+     "hit": "strip"
     }
    ],
-   "usage": "灯带照明，常和铝型材、灯槽一起使用。",
+   "usage": "灯带照明，常和铝型材、灯槽一起使用。\n常见组合 strip lighting（灯带照明）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:46Z"
@@ -3754,45 +3633,22 @@
    "created": "2026-11-16 05:49:59Z"
   },
   {
-   "id": "b219c5e66c",
-   "en": "catalog index",
-   "zh": "目录索引",
-   "cat": "商务用语",
+   "id": "fb79800acc",
+   "en": "configuration",
+   "zh": "配置（standard configuration 标准配置）",
+   "cat": "行业术语",
    "examples": [
     {
-     "en": "The first page should work like a catalog index, so you can jump to each series.",
-     "zh": "第一页应该像目录索引，方便跳到各个系列。",
-     "hit": "catalog index"
+     "en": "This can be our standard product, and the rest can be customised.",
+     "zh": "这个可以作为我们的标准产品，其余的再定制。"
     },
     {
-     "en": "Please add this new range to the catalog index.",
-     "zh": "请把这个新系列加到目录索引里。",
-     "hit": "catalog index"
+     "en": "The standard configuration is 3000 K, white fascia and an integral driver.",
+     "zh": "标准配置是 3000 K、白色面板和内置驱动。",
+     "hit": "configuration"
     }
    ],
-   "usage": "产品目录的总览或索引，用来快速找到系列和型号。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 05:49:59Z"
-  },
-  {
-   "id": "8ffca5850f",
-   "en": "colour scheme",
-   "zh": "配色方案",
-   "cat": "其他",
-   "examples": [
-    {
-     "en": "The colour scheme on the website should match our brand guidelines.",
-     "zh": "网站的配色方案要符合我们的品牌规范。",
-     "hit": "colour scheme"
-    },
-    {
-     "en": "Can we keep the same colour scheme for the landing page and the series pages?",
-     "zh": "落地页和系列页能不能用同一套配色？",
-     "hit": "colour scheme"
-    }
-   ],
-   "usage": "colour 是英式/澳式拼写；美式常作 color scheme。",
+   "usage": "出厂或目录上的默认规格，和定制配置相对。\n常见组合 standard configuration（标准配置）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:59Z"
@@ -3843,22 +3699,22 @@
   },
   {
    "id": "53725d7d0b",
-   "en": "floating chat",
-   "zh": "悬浮聊天窗口",
+   "en": "floating",
+   "zh": "悬浮的；浮动的（网页上的悬浮窗/按钮）",
    "cat": "其他",
    "examples": [
     {
      "en": "We could use a floating chat, like the one we see here.",
      "zh": "我们可以做一个悬浮聊天窗口，跟现在看到的这种一样。",
-     "hit": "floating chat"
+     "hit": "floating"
     },
     {
      "en": "The floating chat should stay in the corner when you scroll the product page.",
      "zh": "在产品页往下滚时，悬浮聊天窗口应一直留在角落。",
-     "hit": "floating chat"
+     "hit": "floating"
     }
    ],
-   "usage": "一直浮在页面上、不随滚动消失的聊天窗口。",
+   "usage": "一直浮在页面上、不随滚动消失的聊天窗口。\n常见组合 floating chat（悬浮聊天窗口）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:59Z"
@@ -3903,6 +3759,28 @@
     }
    ],
    "usage": "太突出、太冲，容易让人觉得被推到脸上。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-16 05:49:59Z"
+  },
+  {
+   "id": "b219c5e66c",
+   "en": "index",
+   "zh": "索引；目录",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "The first page should work like a catalog index, so you can jump to each series.",
+     "zh": "第一页应该像目录索引，方便跳到各个系列。",
+     "hit": "index"
+    },
+    {
+     "en": "Please add this new range to the catalog index.",
+     "zh": "请把这个新系列加到目录索引里。",
+     "hit": "index"
+    }
+   ],
+   "usage": "产品目录的总览或索引，用来快速找到系列和型号。\n常见组合 catalog index（目录索引）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:59Z"
@@ -4018,6 +3896,28 @@
    "created": "2026-11-16 05:49:59Z"
   },
   {
+   "id": "8ffca5850f",
+   "en": "scheme",
+   "zh": "方案；配色/布置方案（colour scheme 配色方案，lighting scheme 灯光方案）",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "The colour scheme on the website should match our brand guidelines.",
+     "zh": "网站的配色方案要符合我们的品牌规范。",
+     "hit": "scheme"
+    },
+    {
+     "en": "Can we keep the same colour scheme for the landing page and the series pages?",
+     "zh": "落地页和系列页能不能用同一套配色？",
+     "hit": "scheme"
+    }
+   ],
+   "usage": "colour 是英式/澳式拼写；美式常作 color scheme。\n常见组合 colour scheme（配色方案）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-16 05:49:59Z"
+  },
+  {
    "id": "bbf26230e3",
    "en": "send an invite",
    "zh": "发送邀请（开通/关联账号）",
@@ -4056,27 +3956,6 @@
     }
    ],
    "usage": "把页面或内容分成几块的分隔线或分隔元素。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 05:49:59Z"
-  },
-  {
-   "id": "fb79800acc",
-   "en": "standard configuration",
-   "zh": "标准配置",
-   "cat": "行业术语",
-   "examples": [
-    {
-     "en": "This can be our standard product, and the rest can be customised.",
-     "zh": "这个可以作为我们的标准产品，其余的再定制。"
-    },
-    {
-     "en": "The standard configuration is 3000 K, white fascia and an integral driver.",
-     "zh": "标准配置是 3000 K、白色面板和内置驱动。",
-     "hit": "standard configuration"
-    }
-   ],
-   "usage": "出厂或目录上的默认规格，和定制配置相对。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 05:49:59Z"
@@ -4126,23 +4005,67 @@
    "created": "2026-11-16 05:49:59Z"
   },
   {
+   "id": "d4ba6c1b8a",
+   "en": "capacity",
+   "zh": "容量；产能",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "Our warehouse capacity is one of our plus points — more than 1500 square metres.",
+     "zh": "仓库容量是我们的一个优势，有一千五百多平方米。",
+     "hit": "capacity"
+    },
+    {
+     "en": "With this warehouse capacity we can hold stock for both small and large projects.",
+     "zh": "有这样的仓库容量，小项目和大项目的货我们都能存。",
+     "hit": "capacity"
+    }
+   ],
+   "usage": "仓库能存放多少货。\n常见组合 warehouse capacity（仓库容量）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-16 06:05:51Z"
+  },
+  {
    "id": "fe83451938",
-   "en": "compatible fixtures",
-   "zh": "配套灯具；兼容灯具",
+   "en": "compatible",
+   "zh": "兼容的；配套的",
    "cat": "行业术语",
    "examples": [
     {
      "en": "You can use that module with these compatible fixtures.",
      "zh": "这个光源模块可以配这些兼容灯具使用。",
-     "hit": "compatible fixtures"
+     "hit": "compatible"
     },
     {
      "en": "We have matching compatible fixtures for the 15 W and 28 W light engines.",
      "zh": "15 瓦和 28 瓦的光源模组都有配套的兼容灯具。",
-     "hit": "compatible fixtures"
+     "hit": "compatible"
     }
    ],
-   "usage": "能和同一套模块或驱动配套安装的灯具。",
+   "usage": "能和同一套模块或驱动配套安装的灯具。\n常见组合 compatible fixtures（配套灯具；兼容灯具）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-16 06:05:51Z"
+  },
+  {
+   "id": "f108f36630",
+   "en": "consultant",
+   "zh": "顾问",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "You can skip the hassle of talking to our sales consultant and use the configurator first.",
+     "zh": "你可以先用配置器，省去找销售顾问沟通的麻烦。",
+     "hit": "consultant"
+    },
+    {
+     "en": "Your sales consultant will follow up with the quotation after you submit the project.",
+     "zh": "你提交项目后，销售顾问会跟进报价。",
+     "hit": "consultant"
+    }
+   ],
+   "usage": "帮客户选灯、报价、跟项目的销售人员。\n常见组合 sales consultant（销售顾问）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:05:51Z"
@@ -4236,67 +4159,45 @@
    "created": "2026-11-16 06:05:51Z"
   },
   {
-   "id": "e8b2aefb7a",
-   "en": "lighting solution partner",
-   "zh": "照明解决方案合作伙伴",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "We're not just a supplier; we want to be a complete lighting solution partner from the early stage through to delivery.",
-     "zh": "我们不只是供货商，而是希望从前期一直跟到交货，做完整的照明解决方案合作伙伴。",
-     "hit": "lighting solution partner"
-    },
-    {
-     "en": "As your lighting solution partner, we can help with design, customisation and staged delivery.",
-     "zh": "作为照明解决方案合作伙伴，我们可以帮忙做设计、定制和分阶段交货。",
-     "hit": "lighting solution partner"
-    }
-   ],
-   "usage": "强调不只卖灯，还一起把照明方案做完。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 06:05:51Z"
-  },
-  {
    "id": "9b9aba6f3f",
-   "en": "linear lighting",
-   "zh": "线型照明",
+   "en": "linear",
+   "zh": "线型的；线条的（linear lighting 线型照明）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "We specialize in linear lighting — we cut and prepare the profiles in-house.",
      "zh": "我们特别擅长线型照明，型材会在公司里切割和预装。",
-     "hit": "linear lighting"
+     "hit": "linear"
     },
     {
      "en": "The Colors range is our linear lighting range, including strip lighting and aluminium profiles.",
      "zh": "Colors 系列是我们的线型照明系列，包括灯带和铝型材。",
-     "hit": "linear lighting"
+     "hit": "linear"
     }
    ],
-   "usage": "细长条、沿线布置的灯，常和灯带、铝型材一起用。",
+   "usage": "细长条、沿线布置的灯，常和灯带、铝型材一起用。\n常见组合 linear lighting（线型照明）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:05:51Z"
   },
   {
    "id": "d5fa83fac6",
-   "en": "modular lighting system",
-   "zh": "模块化照明系统",
+   "en": "modular",
+   "zh": "模块化的",
    "cat": "行业术语",
    "examples": [
     {
      "en": "Bond is a modular lighting system with integrated drivers as well as remote drivers.",
      "zh": "Bond 是一套模块化照明系统，既有内置驱动，也有外置驱动。",
-     "hit": "modular lighting system"
+     "hit": "modular"
     },
     {
      "en": "With a modular lighting system, you only change the module when it fails, not the whole fixture.",
      "zh": "用模块化照明系统，坏了只需换模块，不用换整灯。",
-     "hit": "modular lighting system"
+     "hit": "modular"
     }
    ],
-   "usage": "灯可以拆成模块，维护和搭配更灵活。",
+   "usage": "灯可以拆成模块，维护和搭配更灵活。\n常见组合 modular lighting system（模块化照明系统）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:05:51Z"
@@ -4346,23 +4247,23 @@
    "created": "2026-11-16 06:05:51Z"
   },
   {
-   "id": "f108f36630",
-   "en": "sales consultant",
-   "zh": "销售顾问",
+   "id": "e8b2aefb7a",
+   "en": "solution",
+   "zh": "解决方案（lighting solution 照明方案）",
    "cat": "商务用语",
    "examples": [
     {
-     "en": "You can skip the hassle of talking to our sales consultant and use the configurator first.",
-     "zh": "你可以先用配置器，省去找销售顾问沟通的麻烦。",
-     "hit": "sales consultant"
+     "en": "We're not just a supplier; we want to be a complete lighting solution partner from the early stage through to delivery.",
+     "zh": "我们不只是供货商，而是希望从前期一直跟到交货，做完整的照明解决方案合作伙伴。",
+     "hit": "solution"
     },
     {
-     "en": "Your sales consultant will follow up with the quotation after you submit the project.",
-     "zh": "你提交项目后，销售顾问会跟进报价。",
-     "hit": "sales consultant"
+     "en": "As your lighting solution partner, we can help with design, customisation and staged delivery.",
+     "zh": "作为照明解决方案合作伙伴，我们可以帮忙做设计、定制和分阶段交货。",
+     "hit": "solution"
     }
    ],
-   "usage": "帮客户选灯、报价、跟项目的销售人员。",
+   "usage": "强调不只卖灯，还一起把照明方案做完。\n常见组合 lighting solution partner（照明解决方案合作伙伴）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:05:51Z"
@@ -4407,28 +4308,6 @@
     }
    ],
    "usage": "品牌一句简短的宣传口号。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 06:05:51Z"
-  },
-  {
-   "id": "d4ba6c1b8a",
-   "en": "warehouse capacity",
-   "zh": "仓库容量",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "Our warehouse capacity is one of our plus points — more than 1500 square metres.",
-     "zh": "仓库容量是我们的一个优势，有一千五百多平方米。",
-     "hit": "warehouse capacity"
-    },
-    {
-     "en": "With this warehouse capacity we can hold stock for both small and large projects.",
-     "zh": "有这样的仓库容量，小项目和大项目的货我们都能存。",
-     "hit": "warehouse capacity"
-    }
-   ],
-   "usage": "仓库能存放多少货。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:05:51Z"
@@ -4501,22 +4380,44 @@
   },
   {
    "id": "917461513e",
-   "en": "electrical contractor",
-   "zh": "电气承包商",
+   "en": "contractor",
+   "zh": "承包商（electrical contractor 电气承包商）",
    "cat": "商务用语",
    "examples": [
     {
      "en": "We work with consultants, electrical contractors and electrical wholesalers.",
      "zh": "我们的客户包括顾问、电气承包商和电气批发商。",
-     "hit": "electrical contractors"
+     "hit": "contractors"
     },
     {
      "en": "Please send the packing list to the electrical contractor on site.",
      "zh": "请把装箱单发给现场的电气承包商。",
-     "hit": "electrical contractor"
+     "hit": "contractor"
     }
    ],
-   "usage": "负责现场电气安装施工的承包商。",
+   "usage": "负责现场电气安装施工的承包商。\n常见组合 electrical contractor（电气承包商）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-16 06:06:24Z"
+  },
+  {
+   "id": "3a5fcfd47e",
+   "en": "coordinator",
+   "zh": "协调员",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "Our project coordinator team will coordinate with your site manager and site supervisor on stage-by-stage delivery.",
+     "zh": "我们的项目协调团队会跟现场经理、现场主管对接，按阶段交货。",
+     "hit": "coordinator"
+    },
+    {
+     "en": "Please copy the project coordinator on all delivery emails.",
+     "zh": "所有交货邮件请抄送项目协调员。",
+     "hit": "coordinator"
+    }
+   ],
+   "usage": "负责沟通进度、安排交货和现场配合的人。\n常见组合 project coordinator（项目协调员）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:06:24Z"
@@ -4676,28 +4577,6 @@
    "created": "2026-11-16 06:06:24Z"
   },
   {
-   "id": "3a5fcfd47e",
-   "en": "project coordinator",
-   "zh": "项目协调员",
-   "cat": "商务用语",
-   "examples": [
-    {
-     "en": "Our project coordinator team will coordinate with your site manager and site supervisor on stage-by-stage delivery.",
-     "zh": "我们的项目协调团队会跟现场经理、现场主管对接，按阶段交货。",
-     "hit": "project coordinator"
-    },
-    {
-     "en": "Please copy the project coordinator on all delivery emails.",
-     "zh": "所有交货邮件请抄送项目协调员。",
-     "hit": "project coordinator"
-    }
-   ],
-   "usage": "负责沟通进度、安排交货和现场配合的人。",
-   "notes": "",
-   "material": "",
-   "created": "2026-11-16 06:06:24Z"
-  },
-  {
    "id": "c85ba99aa9",
    "en": "quotation",
    "zh": "报价；报价单",
@@ -4765,30 +4644,30 @@
   },
   {
    "id": "8619d744ef",
-   "en": "site supervisor / site manager",
-   "zh": "现场主管 / 现场经理",
+   "en": "supervisor",
+   "zh": "主管；监工（site supervisor 现场主管）",
    "cat": "商务用语",
    "examples": [
     {
      "en": "Our project coordinator will coordinate with your site manager and site supervisor on staged delivery.",
      "zh": "我们的项目协调员会跟现场经理、现场主管对接分阶段交货。",
-     "hit": "site supervisor"
+     "hit": "supervisor"
     },
     {
      "en": "Please ask the site supervisor to confirm the basement access time.",
      "zh": "请让现场主管确认一下地下室的进场时间。",
-     "hit": "site supervisor"
+     "hit": "supervisor"
     }
    ],
-   "usage": "工地上负责现场管理的人。",
+   "usage": "工地上负责现场管理的人。\n常见组合 site supervisor / site manager（现场主管 / 现场经理）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:06:24Z"
   },
   {
    "id": "a2b4f91beb",
-   "en": "alternative (products)",
-   "zh": "替代产品；替代方案",
+   "en": "alternative",
+   "zh": "替代品；替代方案",
    "cat": "商务用语",
    "examples": [
     {
@@ -4802,7 +4681,7 @@
      "hit": "alternative"
     }
    ],
-   "usage": "指定品牌超预算时，换成价格更合适、性能相当的灯。",
+   "usage": "指定品牌超预算时，换成价格更合适、性能相当的灯。\n常见组合 alternative (products)（替代产品；替代方案）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:06:36Z"
@@ -5093,30 +4972,30 @@
   },
   {
    "id": "e318344e68",
-   "en": "track light",
-   "zh": "轨道灯",
+   "en": "track",
+   "zh": "轨道（track light 轨道灯）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "We have recessed ceiling downlights, wall lights and track lights, so we cover a wide range.",
      "zh": "我们有嵌入式筒灯、壁灯和轨道灯，覆盖范围很广。",
-     "hit": "track lights"
+     "hit": "track"
     },
     {
      "en": "Please quote 12 track lights and 6 metres of track for the retail fit-out.",
      "zh": "请按 12 个轨道灯加 6 米轨道，给这个零售装修报价。",
-     "hit": "track lights"
+     "hit": "track"
     }
    ],
-   "usage": "装在轨道上、位置和照射方向可以调整的灯。",
+   "usage": "装在轨道上、位置和照射方向可以调整的灯。\n常见组合 track light（轨道灯）。",
    "notes": "",
    "material": "",
    "created": "2026-11-16 06:06:36Z"
   },
   {
    "id": "df7a5e7d4e",
-   "en": "grain / wood grain",
-   "zh": "木纹",
+   "en": "grain",
+   "zh": "纹理；木纹（wood grain）",
    "cat": "材质",
    "examples": [
     {
@@ -5127,10 +5006,10 @@
     {
      "en": "Please send a photo of the wood grain before we confirm the batch.",
      "zh": "确认这批货之前，请先发一张木纹的照片过来。",
-     "hit": "wood grain"
+     "hit": "grain"
     }
    ],
-   "usage": "录音里在谈选料、筛选时提到 grains。木材、石材也可以说 grain（纹理）。",
+   "usage": "录音里在谈选料、筛选时提到 grains。木材、石材也可以说 grain（纹理）。\n常见组合 grain / wood grain（木纹）。",
    "notes": "",
    "material": "",
    "created": "2026-11-17 05:52:29Z"
@@ -5268,22 +5147,22 @@
   },
   {
    "id": "a85b9c8ec8",
-   "en": "pendant light",
-   "zh": "吊灯",
+   "en": "pendant",
+   "zh": "吊灯（行业里常单说 pendant / pendants）",
    "cat": "行业术语",
    "examples": [
     {
      "en": "This range includes a wall light and a pendant light to match the same finish.",
      "zh": "这个系列有壁灯和吊灯，可以做成同一表面。",
-     "hit": "pendant light"
+     "hit": "pendant"
     },
     {
      "en": "The dining table needs a pendant light, not a ceiling-mounted fitting.",
      "zh": "餐桌上方需要吊灯，不是吸顶灯。",
-     "hit": "pendant light"
+     "hit": "pendant"
     }
    ],
-   "usage": "悬挂安装的灯。录音里在讲产品类型，识别不太稳，但结合语境很可能在说 wall light 和 pendant light。",
+   "usage": "悬挂安装的灯。录音里在讲产品类型，识别不太稳，但结合语境很可能在说 wall light 和 pendant light。\n常见组合 pendant light（吊灯）。",
    "notes": "",
    "material": "",
    "created": "2026-11-17 05:52:29Z"
@@ -5420,22 +5299,22 @@
   },
   {
    "id": "cef6ed2403",
-   "en": "suspension kit",
-   "zh": "吊装配件（吊线/吊杆套件）",
+   "en": "suspension",
+   "zh": "吊装；悬吊（suspension kit = 吊装配件）",
    "cat": "安装与结构",
    "examples": [
     {
      "en": "Alti's quote does not allow for a suspension kit.",
      "zh": "Alti 的报价里没有包含吊装配件。",
-     "hit": "suspension kit"
+     "hit": "suspension"
     },
     {
      "en": "To be safe, just get some suspension kits in.",
      "zh": "保险起见，备几套吊装配件。",
-     "hit": "suspension kits"
+     "hit": "suspension"
     }
    ],
-   "usage": "轨道灯、线条灯从吸顶改成吊装时要加的一套配件，通常包括吊线或吊杆、天花底座和固定件。",
+   "usage": "轨道灯、线条灯从吸顶改成吊装时要加的一套配件，通常包括吊线或吊杆、天花底座和固定件。\n常见组合 suspension kit（吊装配件（吊线/吊杆套件））。",
    "notes": "",
    "material": "",
    "created": "2026-11-18 03:59:03Z"
@@ -5486,22 +5365,22 @@
   },
   {
    "id": "a0c5fe35aa",
-   "en": "straight joiner",
-   "zh": "直线连接件（一字直通，用于轨道或线条灯）",
+   "en": "joiner",
+   "zh": "连接件（轨道/线条灯用，如 straight / L / T joiner）",
    "cat": "安装与结构",
    "examples": [
     {
      "en": "We need two straight joiners to connect the 3 m tracks.",
      "zh": "我们需要两个直线连接件，把 3 米的轨道接起来。",
-     "hit": "straight joiners"
+     "hit": "joiners"
     },
     {
      "en": "Please add straight joiners to the order, as the run is longer than one track length.",
      "zh": "这段灯比一根轨道长，订单里请加上直线连接件。",
-     "hit": "straight joiners"
+     "hit": "joiners"
     }
    ],
-   "usage": "轨道和线条灯的连接配件。同类的还有 L joiner（L 型转角）、T joiner（T 型三通）、X joiner（十字四通）、flexible joiner（可弯连接件）；也叫 straight connector。",
+   "usage": "轨道和线条灯的连接配件。同类的还有 L joiner（L 型转角）、T joiner（T 型三通）、X joiner（十字四通）、flexible joiner（可弯连接件）；也叫 straight connector。\n常见组合 straight joiner（直线连接件（一字直通，用于轨道或线条灯））。",
    "notes": "",
    "material": "",
    "created": "2026-11-18 06:51:17Z"
@@ -5574,21 +5453,21 @@
   },
   {
    "id": "adbb8d1889",
-   "en": "allocated shipping cost",
-   "zh": "分摊运费",
+   "en": "allocated",
+   "zh": "分摊的；分配的（动词原形 allocate）",
    "cat": "商务用语",
    "examples": [
     {
      "en": "The allocated shipping cost is added to each item's landed cost.",
      "zh": "分摊后的运费会算进每个产品的到岸成本。",
-     "hit": "allocated shipping cost"
+     "hit": "allocated"
     },
     {
      "en": "We allocate the shipping cost by volume, so the bigger pendants take a larger share.",
      "zh": "运费按体积分摊，所以大尺寸的吊灯分得更多。"
     }
    ],
-   "usage": "allocate 是「分配、分摊」。一整票货的总运费按金额、体积或重量摊到每个产品或每张订单上；常与 landed cost（到岸成本）一起出现在采购和 ERP 单据里。",
+   "usage": "allocate 是「分配、分摊」。一整票货的总运费按金额、体积或重量摊到每个产品或每张订单上；常与 landed cost（到岸成本）一起出现在采购和 ERP 单据里。\n常见组合 allocated shipping cost（分摊运费）。",
    "notes": "",
    "material": "",
    "created": "2026-11-18 13:11:08Z"
@@ -5614,6 +5493,667 @@
    "notes": "",
    "material": "",
    "created": "2026-11-18 13:11:08Z"
+  },
+  {
+   "id": "83947575fb",
+   "en": "flood",
+   "zh": "泛光（flood light 泛光灯 / 投光灯）",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "The client needs IP65 flood lights for the car park.",
+     "zh": "客户停车场需要 IP65 的投光灯。",
+     "hit": "flood"
+    },
+    {
+     "en": "We'll use flood lights to wash the building facade.",
+     "zh": "我们用投光灯打亮建筑外墙。",
+     "hit": "flood"
+    }
+   ],
+   "usage": "常见组合 flood light / floodlight（泛光灯、投光灯），用于外墙、广告牌、球场、停车场等大面积照明；flood 单独用一般是「洪水」，在灯具里指大范围泛光。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 08:04:31Z"
+  },
+  {
+   "id": "9fc1ae2528",
+   "en": "awning",
+   "zh": "遮阳篷 / 雨篷",
+   "cat": "安装与结构",
+   "examples": [
+    {
+     "en": "New tenancies, new awnings, new signage…",
+     "zh": "新租户、新遮阳篷、新标识……",
+     "hit": "awnings"
+    }
+   ],
+   "usage": "店铺门口伸出来的篷子；灯具常装在 awning 下方做门头照明。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "54b2992279",
+   "en": "balustrade",
+   "zh": "栏杆（楼梯 / 阳台护栏）",
+   "cat": "安装与结构",
+   "examples": [
+    {
+     "en": "Balustrade lighting and linear lights underneath the stairs are two different effects.",
+     "zh": "栏杆灯和楼梯下的线条灯是两种不同效果。",
+     "hit": "Balustrade"
+    }
+   ],
+   "usage": "handrail = 扶手，balustrade = 整个栏杆；balustrade lighting = 栏杆灯（常把灯藏在扶手里）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "b5a42fa0e0",
+   "en": "caveat",
+   "zh": "需要注意的问题 / 附带条件",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "So that could be the caveat of putting them across a lot of other buildings.",
+     "zh": "所以把灯装在其他楼上会有这个隐患。",
+     "hit": "caveat"
+    }
+   ],
+   "usage": "with one caveat = 但有一点要注意；报价或方案里提醒对方限制条件时用。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "e8d0064711",
+   "en": "conduit",
+   "zh": "线管（穿电线用的管）",
+   "cat": "安装与结构",
+   "examples": [
+    {
+     "en": "We're pulling up the ground, so running conduits…",
+     "zh": "我们会把地面挖开，所以可以走线管……",
+     "hit": "conduits"
+    },
+    {
+     "en": "As long as the conduit is holding something.",
+     "zh": "只要线管能托住东西就行。",
+     "hit": "conduit"
+    }
+   ],
+   "usage": "run conduit = 走线管；埋地灯、户外灯都要提前预埋 conduit。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "b3dcba78be",
+   "en": "Copper",
+   "zh": "铜 / 铜色饰面",
+   "cat": "材质",
+   "examples": [
+    {
+     "en": "All the post-tops, exterior lights, copper finish.",
+     "zh": "所有柱头灯、户外灯都是铜色饰面。",
+     "hit": "copper"
+    }
+   ],
+   "usage": "copper finish 多指铜色表面处理（不一定是实心铜）；和 Brass（黄铜）不同。",
+   "notes": "",
+   "material": "Copper",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "8be0bca0ac",
+   "en": "DIALux",
+   "zh": "DIALux 照明模拟软件",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "We use DIALux basically, so there's a plug-in that works with Revit.",
+     "zh": "我们基本用 DIALux，有插件能和 Revit 对接。",
+     "hit": "DIALux"
+    }
+   ],
+   "usage": "照明设计常用的计算软件，要导入灯具的 IES 文件；Revit 是建筑 BIM 建模软件。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "313b31b295",
+   "en": "DMX",
+   "zh": "DMX 灯光控制协议（常用于 RGB 变色灯）",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "The colour changing ones, usually we go with the DMX protocol.",
+     "zh": "变色灯我们一般用 DMX 协议。",
+     "hit": "DMX"
+    },
+    {
+     "en": "If the lighting is DMX, that'll integrate into most of that AV stuff directly.",
+     "zh": "灯光用 DMX 的话，大部分影音系统都能直接整合。",
+     "hit": "DMX"
+    }
+   ],
+   "usage": "舞台和建筑变色灯常用；DALI 多用于普通调光。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "98193307d1",
+   "en": "festoon",
+   "zh": "灯串（户外挂的串灯）",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "Festoons are probably not the right thing here.",
+     "zh": "灯串在这里可能不合适。",
+     "hit": "Festoons"
+    },
+    {
+     "en": "The maintenance on festoons…",
+     "zh": "灯串的维护很麻烦。",
+     "hit": "festoons"
+    }
+   ],
+   "usage": "常见组合 festoon lighting / festoon lights，用于户外餐饮区、活动场地。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "4bbccd7f7a",
+   "en": "fit-out",
+   "zh": "（商铺 / 办公室）室内装修",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "She's picked up the fit-out for Dolce & Gabbana.",
+     "zh": "她接了 Dolce & Gabbana 的装修。",
+     "hit": "fit-out"
+    },
+    {
+     "en": "It's going to cost me $100,000 to fit out.",
+     "zh": "装修要花我十万。",
+     "hit": "fit out"
+    }
+   ],
+   "usage": "澳洲很常用，fit-out contractor = 装修承包商。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "4be47478b9",
+   "en": "glare",
+   "zh": "眩光",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "A glare shield can be added so you can stop the glare from shining directly.",
+     "zh": "可以加防眩光罩，挡住直射的眩光。",
+     "hit": "glare"
+    }
+   ],
+   "usage": "常见组合 glare shield / anti-glare（防眩）、UGR（统一眩光值）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "7952bc835a",
+   "en": "hotspot",
+   "zh": "光斑 / 亮斑（局部过亮）",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "I know it's a bit of a hot spot here, there's always going to be a hot spot.",
+     "zh": "我知道这里会有个光斑，总会有光斑的。"
+    }
+   ],
+   "usage": "也写作 hot spot；灯带要避免 hotspot / dark spot（亮斑、暗区），看起来要连续均匀。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "06949b7041",
+   "en": "markup",
+   "zh": "（图纸上的）标注 / 批注",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "Even if it's just markups on floor plans or whatever that is.",
+     "zh": "哪怕只是在平面图上做标注也行。",
+     "hit": "markups"
+    }
+   ],
+   "usage": "mark up the drawings = 在图纸上做标注；注意报价里的 markup 是「加价」。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "2b5e33234d",
+   "en": "pole",
+   "zh": "灯杆（pole light 灯杆灯）",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "Potentially I'm going to have to use pole lights.",
+     "zh": "可能还是得用灯杆灯。",
+     "hit": "pole"
+    },
+    {
+     "en": "You can integrate other lights to the pole as well.",
+     "zh": "还可以在灯杆上集成其他灯。",
+     "hit": "pole"
+    }
+   ],
+   "usage": "常见组合 pole light / pole-mounted；post-top 是装在杆顶的柱头灯。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "49043ce450",
+   "en": "precinct",
+   "zh": "街区 / 片区（城市里的一个功能区域）",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "…is trying to maintain a general sense of precinct.",
+     "zh": "……要保持整个街区的整体感。",
+     "hit": "precinct"
+    }
+   ],
+   "usage": "澳洲常说 the arts precinct（艺术街区）、shopping precinct（购物区）；照明方案里常讲整个 precinct 的统一氛围。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "6eb56b9f3c",
+   "en": "programme",
+   "zh": "（施工）进度计划",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "We need the programme in January.",
+     "zh": "施工进度计划要到一月才出。",
+     "hit": "programme"
+    }
+   ],
+   "usage": "澳洲/英国工地说 programme（美式 schedule），指整个项目的施工时间表；program push = 工期推迟。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "c84e9ac32c",
+   "en": "scene",
+   "zh": "（灯光）场景",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "And you can do light scenes.",
+     "zh": "还可以做灯光场景。",
+     "hit": "scenes"
+    },
+    {
+     "en": "We can put a tablet somewhere central that we can have a heap of scenes set.",
+     "zh": "可以在中间放个平板，预设一堆场景。",
+     "hit": "scenes"
+    }
+   ],
+   "usage": "常见组合 lighting scene / scene setting，一键切换不同亮度和颜色。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "d7503197a2",
+   "en": "signage",
+   "zh": "标识 / 招牌（统称）",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "…and then something to the signage pack.",
+     "zh": "……再加上整套标识方案。",
+     "hit": "signage"
+    }
+   ],
+   "usage": "不可数名词，指一个项目里所有标识牌、招牌；signage lighting = 招牌照明。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "09df071d8e",
+   "en": "sweet spot",
+   "zh": "最合适的点 / 最佳区间",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "Make sure the pricing is at the very sweet spot.",
+     "zh": "确保价格在最合适的点。",
+     "hit": "sweet spot"
+    }
+   ],
+   "usage": "常说 price sweet spot（客户最能接受的价位）。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "9776ebc7d6",
+   "en": "switchboard",
+   "zh": "配电箱 / 配电盘",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "Pretty much each building has a switchboard in there.",
+     "zh": "基本每栋楼都有一个配电箱。",
+     "hit": "switchboard"
+    },
+    {
+     "en": "We do have space in the boards for lighting control.",
+     "zh": "配电箱里留了灯光控制的位置。"
+    }
+   ],
+   "usage": "main switchboard = 总配电箱，DB (distribution board) = 分配电箱。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "960df64fe0",
+   "en": "tenancy",
+   "zh": "租户 / 租赁铺位",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "New tenancies, new awnings, new signage, and then murals across a lot of those areas.",
+     "zh": "新租户、新遮阳篷、新标识，还有很多区域会画壁画。",
+     "hit": "tenancies"
+    },
+    {
+     "en": "So this tenancy here is a double volume.",
+     "zh": "这个铺位是挑高双层空间。",
+     "hit": "tenancy"
+    }
+   ],
+   "usage": "tenant = 租户（人/公司），tenancy = 租赁单元或租约；商场项目里常用。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "616a8e007b",
+   "en": "up for grabs",
+   "zh": "都可以考虑 / 还没定，谁都可以争取",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "Running cables in the handrails. All that sort of stuff is up for grabs.",
+     "zh": "在扶手里走线，这些都可以考虑。",
+     "hit": "up for grabs"
+    },
+    {
+     "en": "We could go Dynalite, C-Bus, whatever, that's up for grabs.",
+     "zh": "Dynalite、C-Bus 都行，还没定。",
+     "hit": "up for grabs"
+    }
+   ],
+   "usage": "口语，表示选项开放、还没决定。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "f1f6173e08",
+   "en": "vacate",
+   "zh": "腾空 / 搬离（租户退租）",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "I'm trying to get them all vacated by January the 8th.",
+     "zh": "我在努力让他们在 1 月 8 日前全部搬走。",
+     "hit": "vacated"
+    }
+   ],
+   "usage": "vacate the site / premises（腾出场地）；施工前租户要先 vacate。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "2c287bb62b",
+   "en": "wall washer",
+   "zh": "洗墙灯",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "Whereas if you did the wall washers, you'd have more even washes.",
+     "zh": "如果用洗墙灯，光会更均匀。",
+     "hit": "wall washers"
+    },
+    {
+     "en": "So these are all very popular lights for washing the wall.",
+     "zh": "这些都是很常用的洗墙灯。"
+    }
+   ],
+   "usage": "行业固定说法；wash the wall = 洗墙；linear wall washer = 线条洗墙灯。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:05Z"
+  },
+  {
+   "id": "8df33ba4a6",
+   "en": "canister",
+   "zh": "筒形灯体",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "So that's the 90mm canister.",
+     "zh": "这是 90mm 的筒形灯体。",
+     "hit": "canister"
+    }
+   ],
+   "usage": "圆筒形的灯体，常见于明装筒灯、吊装筒灯；有时也叫 cylinder。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "ea864452fc",
+   "en": "flex",
+   "zh": "软线（flex cable）",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "He had to actually join a piece of flex cable.",
+     "zh": "他只好接了一段软线。",
+     "hit": "flex"
+    }
+   ],
+   "usage": "常见组合 flex cable / flexible cord，接灯具的那段可弯曲电源线；flex 也可以单独指这根线。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "7cdda8bb45",
+   "en": "grommet",
+   "zh": "护线圈 / 胶圈",
+   "cat": "安装与结构",
+   "examples": [
+    {
+     "en": "We have to shave the end cap grommet off.",
+     "zh": "得把端盖上的胶圈削掉。",
+     "hit": "grommet"
+    }
+   ],
+   "usage": "电线穿过孔的地方套的橡胶圈，起保护和防水作用；end cap grommet = 端盖上的出线胶圈。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "3c2ba4a4b7",
+   "en": "marry in (with)",
+   "zh": "（风格上）搭配、协调",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "I need a light that's going to marry in with the house.",
+     "zh": "我需要一款跟房子搭配的灯。",
+     "hit": "marry in"
+    },
+    {
+     "en": "Where there's white we just go white, so it all marries in.",
+     "zh": "白色的地方就用白色，这样整体能搭配。"
+    }
+   ],
+   "usage": "口语短语，也说 marry up with；比 match 更强调整体融合。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "b8191c7a80",
+   "en": "PIR",
+   "zh": "人体红外感应器（PIR sensor）",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "Is it coming out the corner there or is that the PIR?",
+     "zh": "这里是从角落出线，还是那是人体感应器？",
+     "hit": "PIR"
+    }
+   ],
+   "usage": "Passive Infrared 的缩写；PIR sensor 常配灯带、楼梯灯，有人经过才亮。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "d6b2d3f741",
+   "en": "power point",
+   "zh": "（澳洲说法）电源插座",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "There's power points to feed all the transformers.",
+     "zh": "这里有插座给所有变压器供电。",
+     "hit": "power points"
+    },
+    {
+     "en": "And then the power point under here for any transformer light under the cupboard.",
+     "zh": "下面有个插座给柜下灯带的变压器供电。",
+     "hit": "power point"
+    }
+   ],
+   "usage": "澳洲把插座叫 power point（美式 outlet、英式 socket）；GPO 也是插座的意思。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "945f1a7f95",
+   "en": "sconce",
+   "zh": "壁灯（装饰性壁灯）",
+   "cat": "行业术语",
+   "examples": [
+    {
+     "en": "Under the cupboard… I think that's a sconce light.",
+     "zh": "柜子下面我记得是一盏壁灯。",
+     "hit": "sconce"
+    }
+   ],
+   "usage": "偏装饰性的壁灯，常装在镜子两侧、走廊；wall light 是更通用的说法。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "edad9f8966",
+   "en": "sparky",
+   "zh": "（澳洲口语）电工",
+   "cat": "商务用语",
+   "examples": [
+    {
+     "en": "The sparky should be able to squeeze it in.",
+     "zh": "电工应该能塞进去。",
+     "hit": "sparky"
+    }
+   ],
+   "usage": "澳洲工地口语，正式说法是 electrician / electrical contractor。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "354ab1fcad",
+   "en": "throw",
+   "zh": "（灯光的）投射距离",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "If you go any brighter… you don't get the throw. It's just the intensity.",
+     "zh": "再亮也不会照得更远，只是光强变大。",
+     "hit": "throw"
+    },
+    {
+     "en": "Again we've got this issue with pencil lights, they're a small throw here.",
+     "zh": "还是那个问题，铅笔灯的投射距离很小。",
+     "hit": "throw"
+    }
+   ],
+   "usage": "long throw / short throw = 照得远 / 照得近，和光束角、光强有关。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "a734f0cc16",
+   "en": "transformer",
+   "zh": "变压器（低压灯带 / 灯具的电源）",
+   "cat": "光学电气",
+   "examples": [
+    {
+     "en": "We did put a spot for a transformer, but even that is in the most weirdest spot.",
+     "zh": "我们留了放变压器的位置，但位置很奇怪。",
+     "hit": "transformer"
+    }
+   ],
+   "usage": "澳洲工地常把低压灯带的电源统称 transformer，规格书里一般写 driver 或 power supply。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "45e88e2c5e",
+   "en": "vanity",
+   "zh": "浴室柜 / 洗手台柜",
+   "cat": "安装与结构",
+   "examples": [
+    {
+     "en": "We're choosing floating vanities and it would have been nice to put a strip light underneath.",
+     "zh": "我们选的是悬浮式浴室柜，本来很想在下面装灯带。",
+     "hit": "vanities"
+    }
+   ],
+   "usage": "floating vanity = 悬浮（挂墙）浴室柜，下方常加灯带做夜灯。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-19 16:02:24Z"
   }
  ]
 }
