@@ -1,6 +1,6 @@
 {
  "voice": "en-GB-RyanNeural",
- "count": 838,
+ "count": 848,
  "files": {
   "Accessories": "67a7c6bb1587.mp3",
   "The data sheet lists the accessories separately, including the honeycomb and the trim.": "020cecd36889.mp3",
@@ -811,7 +811,6 @@
   "Running cables in the handrails. All that sort of stuff is up for grabs.": "f203a6a12fa1.mp3",
   "We could go Dynalite, C-Bus, whatever, that's up for grabs.": "57756298d54f.mp3",
   "vacate": "dee3a728993c.mp3",
-  "I'm trying to get them all vacated by January the 8th.": "87cf3779dcb5.mp3",
   "wall washer": "a5126b2ea643.mp3",
   "Whereas if you did the wall washers, you'd have more even washes.": "2162f8f6bd6d.mp3",
   "So these are all very popular lights for washing the wall.": "f729a66b6e4e.mp3",
@@ -839,6 +838,17 @@
   "transformer": "8070ae982743.mp3",
   "We did put a spot for a transformer, but even that is in the most weirdest spot.": "0cbab59e2966.mp3",
   "vanity": "984ce3ce2261.mp3",
-  "We're choosing floating vanities and it would have been nice to put a strip light underneath.": "dadddd3c55a0.mp3"
+  "We're choosing floating vanities and it would have been nice to put a strip light underneath.": "dadddd3c55a0.mp3",
+  "Count me in!": "5041be475a16.mp3",
+  "Lunch? — Count me in!": "be681c75a216.mp3",
+  "We're going to the site this afternoon. Count me in!": "2bc119ec595d.mp3",
+  "lunch": "fd74e0fd0836.mp3",
+  "Lunch?": "cf7e136007ce.mp3",
+  "ambiance": "a5c9046c9a26.mp3",
+  "be shone": "a7f4ca917339.mp3",
+  "general": "7098d68640b9.mp3",
+  "integrate": "d641783962ce.mp3",
+  "exterior": "a2a4ae52ef86.mp3",
+  "multiple": "14a4f6332cf6.mp3"
  }
 }

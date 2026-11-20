@@ -1,7 +1,7 @@
 {
- "syncedAt": "2026-11-19T21:52:39Z",
+ "syncedAt": "2026-11-20T21:51:47Z",
  "source": "Notion 英语复习词库",
- "count": 282,
+ "count": 290,
  "words": [
   {
    "id": "0f8a82371f",
@@ -5438,7 +5438,7 @@
     {
      "en": "Is the existing track 1 circuit or 3 circuit?",
      "zh": "现场原有的轨道是单回路还是三回路？",
-     "hit": "1 circuit"
+     "hit": "3 circuit"
     },
     {
      "en": "With a 3 circuit track, we can control the spotlights in three separate groups.",
@@ -5921,15 +5921,9 @@
    "en": "vacate",
    "zh": "腾空 / 搬离（租户退租）",
    "cat": "商务用语",
-   "examples": [
-    {
-     "en": "I'm trying to get them all vacated by January the 8th.",
-     "zh": "我在努力让他们在 1 月 8 日前全部搬走。",
-     "hit": "vacated"
-    }
-   ],
-   "usage": "vacate the site / premises（腾出场地）；施工前租户要先 vacate。",
-   "notes": "",
+   "examples": [],
+   "usage": "vacate the site / premises（腾出场地）；施工前租户要先 vacate。\nvacated 是过去式 / 过去分词，常见说法是 get them vacated（让他们搬走）。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 4）：I'm trying to get them all vacated by January the 8th.（我尽量让他们在 1 月 8 日前全部搬走。）",
    "material": "",
    "created": "2026-11-19 16:02:05Z"
   },
@@ -6154,6 +6148,116 @@
    "notes": "",
    "material": "",
    "created": "2026-11-19 16:02:24Z"
+  },
+  {
+   "id": "d76a858c68",
+   "en": "Count me in!",
+   "zh": "算我一个",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "Lunch? — Count me in!",
+     "zh": "去吃午饭吗？——算我一个！",
+     "hit": "Count me in!"
+    },
+    {
+     "en": "We're going to the site this afternoon. Count me in!",
+     "zh": "我们下午要去现场。算我一个！",
+     "hit": "Count me in!"
+    }
+   ],
+   "usage": "别人发出邀请或问谁要参加时，用这句话表示「算我一个 / 我要参加」。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-20 01:23:16Z"
+  },
+  {
+   "id": "c3adcb3d43",
+   "en": "lunch",
+   "zh": "午饭；去吃午饭了",
+   "cat": "其他",
+   "examples": [
+    {
+     "en": "lunch",
+     "zh": "我去吃午饭了。",
+     "hit": "lunch"
+    },
+    {
+     "en": "Lunch?",
+     "zh": "去吃午饭吗？",
+     "hit": "Lunch"
+    }
+   ],
+   "usage": "同事在 WhatsApp 群里只发一句 lunch，通常是「我去吃午饭了」；也可能是约大家一起去吃，或通知「午饭到了」（外卖到了 / 公司请客），要看上下文。",
+   "notes": "",
+   "material": "",
+   "created": "2026-11-20 01:23:16Z"
+  },
+  {
+   "id": "2a5cfa1006",
+   "en": "ambiance",
+   "zh": "氛围（灯光营造的氛围）",
+   "cat": "行业术语",
+   "examples": [],
+   "usage": "也常写成 ambience；相近说法还有 atmosphere、ambient lighting（氛围照明）。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 3）：But if you're going to the pole once, you can put them a bit further, and you can integrate other lights to the pole as well, so shine on for general ambiance or for event lights.（但如果用灯杆，就可以装得稍远一点，还可以把别的灯也集成到灯杆上，用来打整体氛围，或者做活动照明。）",
+   "material": "",
+   "created": "2026-11-20 04:14:11Z"
+  },
+  {
+   "id": "d36d991854",
+   "en": "be shone",
+   "zh": "（光）被照到/打到某处",
+   "cat": "光学电气",
+   "examples": [],
+   "usage": "通常指灯光照射或反射到某处。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 3）：So some of them can be even shone on the murals.（有些甚至可以打到壁画上。）",
+   "material": "",
+   "created": "2026-11-20 04:14:11Z"
+  },
+  {
+   "id": "3f1b18dd5a",
+   "en": "general",
+   "zh": "整体的；总的；一般的（放在名词前）",
+   "cat": "其他",
+   "examples": [],
+   "usage": "放在名词前，表示「整体的 / 总的 / 一般的」，如 general lighting（一般照明 / 整体照明）、general ambiance（整体氛围）。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 1）：Yes, I'm trying to see the scenario that we want to describe, the day-to-day general lighting, in terms of talking to your lighting, is trying to maintain a general sense of precinct.（对，我在想我们要描述的场景：日常的一般照明，就灯光来说，是要保持一种整体的街区（precinct）感觉。）\n例（2026-11-18 会议，Taipan 2）：And if it takes control of the general lighting of the precinct, then [inaudible]（如果能把街区的一般照明也控制好，那么[听不清]）",
+   "material": "",
+   "created": "2026-11-20 04:14:11Z"
+  },
+  {
+   "id": "8f8dbe350d",
+   "en": "integrate",
+   "zh": "整合；嵌入；集成",
+   "cat": "安装与结构",
+   "examples": [],
+   "usage": "把灯具或系统整合、嵌入到结构、家具或其他系统里。过去分词 integrated 也可以表示「一体的」。词库里已有 Integral（内置的，常指 integral driver），意思不一样。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 3）：But if you're going to the pole once, you can put them a bit further, and you can integrate other lights to the pole as well, so shine on for general ambiance or for event lights.（但如果用灯杆，就可以装得稍远一点，还可以把别的灯也集成到灯杆上，用来打整体氛围，或者做活动照明。）\n例（2026-11-18 会议，Taipan 2）：Well then if the lighting's DMX, that'll integrate into most of that AV stuff directly.（那如果灯光走 DMX，就能比较直接地接到大部分影音系统里。）",
+   "material": "",
+   "created": "2026-11-20 04:14:11Z"
+  },
+  {
+   "id": "80f314e2b1",
+   "en": "exterior",
+   "zh": "室外的；外部的",
+   "cat": "行业术语",
+   "examples": [],
+   "usage": "常见组合 exterior lights（室外灯 / 户外灯）。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 4）：All the post-tops, exterior lights, copper finish.（这些都是杆顶灯、室外灯，铜饰面。）",
+   "material": "",
+   "created": "2026-11-20 05:31:34Z"
+  },
+  {
+   "id": "870d8bffe7",
+   "en": "multiple",
+   "zh": "多个的",
+   "cat": "其他",
+   "examples": [],
+   "usage": "放在名词前，表示「多个的」，如 multiple tenants（多家租户）。",
+   "notes": "例（2026-11-18 会议，Mordaunt Cct 4）：I guess with multiple tenants, with the client wanting to take on some of the tenants.（我想是因为租户很多，而且业主还想自己承接其中一些租户。）\n例（2026-11-18 会议，Mordaunt Cct 4）：But again, where we're currently sitting is knowing that there's still a live operation on site, there's some multiple tenants still there, but [inaudible]（不过就我们现在的情况来说，现场还在正常运营，还有好几家租户在，但是[听不清]）",
+   "material": "",
+   "created": "2026-11-20 05:31:34Z"
   }
  ]
 }
